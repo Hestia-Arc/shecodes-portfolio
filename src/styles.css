@@ -5,7 +5,7 @@
   }
   
   body {
-    margin: 0;
+    
     font-family: var(--bs-font-sans-serif);
     font-size: 1rem;
     font-weight: 400;
@@ -15,11 +15,10 @@
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
     margin-top: 100px !important;
+    margin-bottom: 100px !important;
   }
   
-  .center {
-    /* text-align: center !important; */
-  }
+
   h1,
   h2,
   h3 {
@@ -113,3 +112,24 @@
     text-align: left;
   }
   
+
+  /* Media Queries */
+
+  @media (max-width: 576px) {
+    .tag {
+      font-size: 32px!important;
+      text-align: center;
+    }
+    h1 {
+      font-size: 48px!important;
+      line-height: 1.5;
+   }
+   p {
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+  }
