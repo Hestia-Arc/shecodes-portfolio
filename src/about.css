@@ -1,22 +1,23 @@
 :root {
-    --primary-color: #6c63ff;
-    --secondary-color: #f5f2fe;
-    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  }
-  
-  body {
-    margin: 100px 0 !important;
-    font-family: var(--bs-font-sans-serif);
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #f79336;
-    background-color: rgb(20, 20, 20);
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
-    margin-top: 100px !important;
+  --primary-color: #0ca193;
+  --secondary-color: #eaf3f0;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --bs-navbar-color: rgba(182, 158, 51, 0.55);
+}
 
-  }
+body {
+  
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #eaf3f0!important;
+  background-color: rgb(20, 20, 20)!important;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  margin-top: 100px !important;
+  margin-bottom: 20px !important;
+}
 
   
   .center {
@@ -43,12 +44,32 @@
   }
   
   p {
-    background: var(--secondary-color);
-    /* padding: 20px; */
-    /* border-radius: 4px; */
+    background: none;
+    border-top: 1.5px solid #eaf3f0;
+    border-bottom: 1.5px solid #eaf3f0;
+    padding: 20px;
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
+  }
+
+  .nav-link {
+    background-color: black;
+  }
+  .nav-link:hover, .nav-link:active {
+    color: var(--primary-color);
+  }
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}  
+.navbar {
+  background-color: black;
+}
+  .navbar-toggler {
+    border: 2px solid var(--secondary-color);
+  }
+  .name {
+    color: var(--primary-color);
   }
   
   .navigation-links {
@@ -90,6 +111,12 @@
   .about-paragraphs p {
     margin: 10px;
   }
+
+  /* Image */
+  img {
+    width: 245px;
+    height: 483px;
+  }
   
   .email-link {
     display: flex;
@@ -110,6 +137,15 @@
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 4rem;
+  }
+  .icon {
+    padding: 10px;
   }
 
 

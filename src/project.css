@@ -1,0 +1,136 @@
+:root {
+    --primary-color: #0ca193;
+    --secondary-color: #eaf3f0;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --bs-navbar-color: rgba(182, 158, 51, 0.55);
+  }
+  
+  body {
+    
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #eaf3f0!important;
+    background-color: rgb(20, 20, 20)!important;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 100px !important;
+    margin-bottom: 20px !important;
+  }
+  
+    
+    .center {
+      /* text-align: center !important; */
+    }
+    h1,
+    h2,
+    h3 {
+      text-align: center;
+      margin: 0;
+    }
+    
+    h1 {
+      font-size: 96px !important;
+    }
+    
+    h2 {
+      font-size: 60px !important;
+    }
+    
+    h3 {
+      font-size: 24px !important;
+      opacity: 0.7;
+    }
+    
+    p {
+      background: none;
+      padding: 20px;
+      font-size: 18px;
+      line-height: 1.5;
+      text-align: center;
+    }
+  
+    .nav-link {
+      background-color: black;
+    }
+    .nav-link:hover, .nav-link:active {
+      color: var(--primary-color);
+    }
+    .navbar-expand-lg .navbar-collapse {
+      justify-content: flex-end;
+  }  
+  .navbar {
+    background-color: black;
+  }
+    .navbar-toggler {
+      border: 2px solid var(--secondary-color);
+    }
+    .name {
+      color: var(--primary-color);
+    }
+    
+    .navigation-links {
+      display: flex;
+      margin-top: 40px;
+      justify-content: center;
+    }
+    
+    .navigation-links a {
+      margin: 20px;
+      border-radius: 4px;
+      padding: 20px 15px;
+      text-decoration: none;
+      text-transform: capitalize;
+    }
+    
+    .contact-link {
+      background: var(--primary-color);
+      box-shadow: var(--box-shadow);
+      color: white;
+    }
+    
+    .about-link {
+      color: var(--primary-color);
+      border: 1px solid var(--primary-color);
+    }
+    
+    .homepage-link {
+      color: var(--primary-color);
+      text-align: center;
+      display: block;
+    }
+    
+  
+    .primary-link {
+      border-radius: 4px;
+      padding: 20px 15px;
+      text-decoration: none;
+      text-transform: capitalize;
+      background: var(--primary-color);
+      box-shadow: var(--box-shadow);
+      color: white;
+    }
+  
+    .footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 4rem;
+    }
+    .icon {
+      padding: 10px;
+    }
+  
+  
+    /*Media Queries  */
+    @media (max-width: 576px) {
+    .tag {
+        font-size: 48px!important;
+        line-height: 1.5;
+    }
+    h2 {
+      font-size: 32px!important;
+    }
+    
+  }
+    
